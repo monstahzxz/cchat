@@ -7,11 +7,10 @@ var helmet = require('helmet');
 var waitingQueue = [];
 var activeChats = [];
 var chatBuffers = {};
-var allowedOrigins = ['*', 'http://localhost:4200'];
 var app = express();
 
 app.use(bodyParser.json())
-app.use(helmet());
+//app.use(helmet());
 app.use(cors());
 // app.use(cors({
 //     origin: function(origin, callback){
@@ -26,7 +25,7 @@ app.use(cors());
 //   }));
 
 
-app.get('*.*', express.static('./dist/cchat-front', {maxAge: '1y'}));
+app.get('*.*', express.static('./dist/static', {maxAge: '1y'}));
 
 app.get('/getToken', function(req, res){
     token = helper.generateToken();

@@ -188,7 +188,7 @@ let RoomService = class RoomService {
         this._http = _http;
     }
     getToken() {
-        return this._http.get('http://192.168.1.14:3000/getToken');
+        return this._http.get('http://copocse.cet.ac.in/getToken');
     }
     getMatch(userToken) {
         let headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -197,7 +197,7 @@ let RoomService = class RoomService {
         let options = {
             headers: headers
         };
-        return this._http.get('http://192.168.1.14:3000/match', options);
+        return this._http.get('http://copocse.cet.ac.in/match', options);
     }
     getMessages(userToken, chatToken) {
         let headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -207,7 +207,7 @@ let RoomService = class RoomService {
         let options = {
             headers: headers
         };
-        return this._http.get('http://192.168.1.14:3000/receive', options);
+        return this._http.get('http://copocse.cet.ac.in/receive', options);
     }
     sendMessage(userToken, chatToken, msg) {
         let headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -217,7 +217,7 @@ let RoomService = class RoomService {
         let options = {
             headers: headers
         };
-        this._http.post('http://192.168.1.14:3000/send', { msg: msg }, options).toPromise().then(data => data);
+        this._http.post('http://copocse.cet.ac.in/send', { msg: msg }, options).toPromise().then(data => data);
     }
 };
 RoomService.ctorParameters = () => [
