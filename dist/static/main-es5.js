@@ -195,7 +195,7 @@ var RoomService = /** @class */ (function () {
         this._http = _http;
     }
     RoomService.prototype.getToken = function () {
-        return this._http.get('http://copocse.cet.ac.in/getToken');
+        return this._http.get('https://copocse.cet.ac.in/getToken');
     };
     RoomService.prototype.getMatch = function (userToken) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -204,7 +204,7 @@ var RoomService = /** @class */ (function () {
         var options = {
             headers: headers
         };
-        return this._http.get('http://copocse.cet.ac.in/match', options);
+        return this._http.get('https://copocse.cet.ac.in/match', options);
     };
     RoomService.prototype.getMessages = function (userToken, chatToken) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -214,7 +214,7 @@ var RoomService = /** @class */ (function () {
         var options = {
             headers: headers
         };
-        return this._http.get('http://copocse.cet.ac.in/receive', options);
+        return this._http.get('https://copocse.cet.ac.in/receive', options);
     };
     RoomService.prototype.sendMessage = function (userToken, chatToken, msg) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -224,7 +224,7 @@ var RoomService = /** @class */ (function () {
         var options = {
             headers: headers
         };
-        this._http.post('http://copocse.cet.ac.in/send', { msg: msg }, options).toPromise().then(function (data) { return data; });
+        this._http.post('https://copocse.cet.ac.in/send', { msg: msg }, options).toPromise().then(function (data) { return data; });
     };
     RoomService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
