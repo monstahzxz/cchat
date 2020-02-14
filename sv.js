@@ -93,4 +93,4 @@ setInterval(function(){
     //console.log('sss', chatBuffers);
 }, 1000);
 
-app.listen(3000, () => console.log('Listening!'));
+app.listen(3006, () => console.log('Listening!'));
