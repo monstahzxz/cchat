@@ -90,7 +90,7 @@ setInterval(function(){
     helper.matchChats(waitingQueue, activeChats, chatBuffers);
 }, 1000);
 setInterval(function(){
-    //console.log('sss', chatBuffers);
+    //console.log('sss', activeChats);
 }, 1000);
 
 app.listen(3006, () => console.log('Listening!'));

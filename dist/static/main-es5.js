@@ -276,6 +276,9 @@ var RoomComponent = /** @class */ (function () {
     }
     RoomComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.userToken = '';
+        this.chatToken = '';
+        this.msg = '';
         this._roomService.getToken()
             .subscribe(function (data) { return _this.userToken = data.userToken; });
         setInterval(function () {

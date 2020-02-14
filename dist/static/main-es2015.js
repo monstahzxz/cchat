@@ -267,6 +267,9 @@ let RoomComponent = class RoomComponent {
         this.elementRef = elementRef;
     }
     ngOnInit() {
+        this.userToken = '';
+        this.chatToken = '';
+        this.msg = '';
         this._roomService.getToken()
             .subscribe(data => this.userToken = data.userToken);
         setInterval(() => {
