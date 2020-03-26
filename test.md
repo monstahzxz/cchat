@@ -34,6 +34,10 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
 * Implementation of the design after my mentors accept it.
   * <b>Functions</b>
     1. The object detector (RoI extractor) can be implemented by using the idea from the paper mentioned above (OverFeat paper). The proposed object detector also has to work in real-time. Architectural models like YOLO ([You Only Look Once](https://arxiv.org/abs/1506.02640)) follows these tricks to feasibly compute patches corresponding to RoIs.
-    2. The existing <b>input</b> pipeline might have slight changes as to accomodate the user input such as user-selected class groups. 
+    2. The existing <b>input</b> pipeline may need to be slightly changed so as to accomodate the user inputs such as user-selected class groups. 
     3. The existing <b>output</b> pipeline consists of results (classes). This needs to be updated to suite the feature of sending bounding boxes of the extracted RoIs. As the project details indicate that the download of areas in an image given a bounding box is currently supported, we can easily adapt the output pipeline change.
-    4. Any pre-processing or post-processing of images/features can also be done under the system.
+    4. Any pre-processing or post-processing of images/features can also be done under the system. This is to address the need to pass these results to other models as well.
+* Unit testing and integration testing
+  * Models are to be evaluated using metrics that are required by the project. Metrics include <b>IoU (Intersection over Union)</b>, etc.
+  * As the models are only part of the pipeline, integration testing is done. This includes testing of the corresponding <b>API endpoints</b> with the newly updated input and output standards developed.
+    * NOTE: Integration testing tests the flow from user input images (<b>slides</b>) and user options to retrieval of corresponding <b>RoIs</b> as patches.
