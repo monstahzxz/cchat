@@ -33,5 +33,7 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
     3. With proper guidance from my mentors, the newly proposed model can be implemented within the existing pipeline workflow
 * Implementation of the design after my mentors accept it.
   * <b>Functions</b>
-    1. The object detector (RoI extractor) can be implemented by using the idea from the paper mentioned above (OverFeat paper). The proposed object detector also has to work in real-time. Architectural model like YOLO ([You Only Look Once](https://arxiv.org/abs/1506.02640)) follows these tricks to feasibly compute patches corresponding to RoIs.
-    2. The existing input pipeline might have slight changes as to accomodate the user input such as user-selected class groups. 
+    1. The object detector (RoI extractor) can be implemented by using the idea from the paper mentioned above (OverFeat paper). The proposed object detector also has to work in real-time. Architectural models like YOLO ([You Only Look Once](https://arxiv.org/abs/1506.02640)) follows these tricks to feasibly compute patches corresponding to RoIs.
+    2. The existing <b>input</b> pipeline might have slight changes as to accomodate the user input such as user-selected class groups. 
+    3. The existing <b>output</b> pipeline consists of results (classes). This needs to be updated to suite the feature of sending bounding boxes of the extracted RoIs. As the project details indicate that the download of areas in an image given a bounding box is currently supported, we can easily adapt the output pipeline change.
+    4. Any pre-processing or post-processing of images/features can also be done under the system.
