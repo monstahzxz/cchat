@@ -22,10 +22,16 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
 
 ## Project Goals / Major Contributions
 * Gathering relevant issues related to existing workflow and integrations
-* Re-design the single-stage network to adapt to detection of RoI tasks.
+* Re-design the single-stage network to adapt to detection of RoI tasks with respect to gathered issues as well.
   * <b>Issues</b>
     1. The current network outputs the results directly without any bounding boxes.
-    2. A solution would be to create a two-stage network which would first create patches of fixed size and pass them to the CNN for predicting classes. This may be computationally infeasible.
+    2. A solution would be to create a two-stage network which would first create patches of fixed size and pass them to the CNN for predicting classes. But, this may be computationally infeasible.
+    3. Integration with other entities in pipeline
   * <b>Solution proposals</b>
-    1. The network should be adapted to act as an object detector which predicts both bounding boxes as well as classes.
+    1. The network should be designed to adapt as an object detector which predicts both bounding boxes as well as classes.
     2. The idea of a two-stage CNN can be feasibly implemented as a single-pass network by a model strategy referenced in the following paper: [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks](https://arxiv.org/abs/1312.6229)
+    3. With proper guidance from my mentors, the newly proposed model can be implemented within the existing pipeline workflow
+* Implementation of the design after my mentors accept it.
+  * <b>Functions</b>
+    1. The object detector (RoI extractor) can be implemented by using the idea from the paper mentioned above (OverFeat paper). The proposed object detector also has to work in real-time. Architectural model like YOLO ([You Only Look Once](https://arxiv.org/abs/1506.02640)) follows these tricks to feasibly compute patches corresponding to RoIs.
+    2. The existing input pipeline might have slight changes as to accomodate the user input such as user-selected class groups. 
