@@ -117,3 +117,17 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
     * Final week.
     * Discussion with mentors.
     * Project finalisation.
+
+## Planned GSoC Work Hours
+* <b>Timezone</b>: IST (GMT +05:30)
+* <b>Work hours</b>: 6 hours daily.
+* <b>Preferred work hours</b>: 6pm - 12am (I can dedicate during other timings as well, if required)
+
+## Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)
+* I will be having my university examinations in the month of May 2020. But, I would want to work on the project paralelly as well (as much as I can).
+* After my exams, I will be working as a software enginer. I love to do open source work, so no conflicts will occur due to this.
+
+## Skill Set
+* <b> Personal Works</b>
+  * [FyndML ML Challenge 2019 Entry](https://github.com/monstahzxz/fyndML) - An open competition by [fyndML](https://www.fynd.com/) aimed at automating the identification of footwear closure types.
+  * [Microsoft AI Challenge 2018](https://github.com/monstahzxz/Microsoft-AI-Challenge-2018) - An open competition by <b>Microsoft</b> to build models for the task of [Machine Reading Comprehension](https://www.microsoft.com/en-us/research/project/machine-reading-comprehension/). I was fortunate enough to be selected as a finalist in this competition. [Certificate](https://github.com/monstahzxz/Microsoft-AI-Challenge-2018/blob/master/Cert/Microsoft_AI_Challenge_Certificate_Saran_Prasad.jpg)
