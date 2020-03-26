@@ -41,3 +41,49 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
   * Models are to be evaluated using metrics that are required by the project. Metrics include <b>IoU (Intersection over Union)</b>, etc.
   * As the models are only part of the pipeline, integration testing is done. This includes testing of the corresponding <b>API endpoints</b> with the newly updated input and output standards developed.
     * NOTE: Integration testing tests the flow from user input images (<b>slides</b>) and user options to retrieval of corresponding <b>RoIs</b> as patches.
+
+## Project Schedule
+* <b>Community Bonding Period</b> (May 5 - June 1)
+  * I consider this as a very big opportunity to meet mentors and contributors. This will help me build a good understanding of the documentations, workflows and standards that are followed. It would help me gear up faster for the upcoming development phase.
+* <b>Development Phase</b> (June 1 - June 31)
+  * <b>June 1 - 5</b>
+    * Evaluation of current existing pipelines. (APIs involved, models being used, input/output formats). This would clear up which part of the pipeline I am handling and help me in the design process.
+  * <b>June 5 - 8</b>
+    * Begin design of pipeline
+  * <b> June 8 - 10</b>
+    * Get feedback from mentors on the design
+  * <b> June 10 - 12</b>
+    * Make changes to design if any, and finalise
+  * <b> June 12 - 16</b>
+    * Setting up development environment
+    * Updation in input and output formats. Specifically, adjust input to accomodate user-selected groups and to adapt output to support bounding box results with the help of existing download patches feature.
+  * <b> June 16 - 18</b>
+    * Get review from mentors on updation to API input and outputs. (Changes made to API endpoint)
+    * Pull changes
+  * <b> June 18 - 22</b>
+    * Start working on existing model. (Change into object detector with proposed strategies in Project Goals section)
+    * Choosing toolkit and prototyping model architecture
+  * <b> June 22 - 24</b>
+    * Review from mentors on model architecture and technologies.
+    * Make changes if any
+  * <b> June 24 - 28</b>
+    * Implementation of proposed model
+    * Integration of model with already changes input/output framework.
+  * <b> June 28 - 29</b>
+    * Final changes
+  * <b> June 29 - July 3</b>
+    * Phase 1 evaluation
+    * Get valuable feedback from mentors on the work completed till now
+  * <b> July 4 - July 9</b>
+    * Phase 1 model completed. Now, start focusing more on tests.
+  * <b> July 9 - July 13</b>
+    * Unit testing of model will provide in-sight into short comings of model if any.
+    * Integration testing will reveal optimisation options.
+  * <b> July 13 - July 17</b>
+    * Test results are provided to mentors for evaluation.
+    * Based on mentors' feedbacks, model architecture, pipeline framework, etc can be changed accordingly.
+  * <b> July 17 - 21</b>
+    * Make further changes if any
+  * <b> July 21 - 31</b>
+    * Final 10 days can be fully dedicated to testing, feedback, etc with the help of mentors.
+  
