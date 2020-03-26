@@ -75,15 +75,45 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
     * Phase 1 evaluation
     * Get valuable feedback from mentors on the work completed till now
   * <b> July 4 - July 9</b>
-    * Phase 1 model completed. Now, start focusing more on tests.
+    * Phase 1 model completed. Now, start focusing more on writing tests.
   * <b> July 9 - July 13</b>
-    * Unit testing of model will provide in-sight into short comings of model if any.
-    * Integration testing will reveal optimisation options.
+    * Start writing tests for unit testing and integration testing.
+    * Metric evaluation, pipeline efficiency, etc.
   * <b> July 13 - July 17</b>
     * Test results are provided to mentors for evaluation.
     * Based on mentors' feedbacks, model architecture, pipeline framework, etc can be changed accordingly.
   * <b> July 17 - 21</b>
-    * Make further changes if any
+    * Make changes to model architecture (optional).
+    * Make changes in user inputs or scope of options provided.
+    * Adapt system to produce real-time bounding boxes.
   * <b> July 21 - 31</b>
     * Final 10 days can be fully dedicated to testing, feedback, etc with the help of mentors.
-  
+  * <b> July 31</b>
+    * Phase 2 evaluation
+* <b>Project Completion, testing, and documentation</b> (August 1 - August 31)
+  * <b> August 1 - 5</b>
+    * As part of the project completion, any work left is taken up
+    * Guidance from mentors.
+  * <b> August 5 - 9</b>
+    * Final development changes are made.
+    * Final testing is taken up.
+  * <b> August 9 - 13</b>
+    * If testing reveals any problem, development changes are again taken up.
+    * Mentors can give feedback
+    * Development is concluded.
+  * <b> August 13 - 17</b>
+    * Documentation work begins
+    * Documentation standards are decided with the help of mentors
+    * Split of dev-test documentation styles.
+  * <b> August 17 - 21</b>
+    * For every step taken in development phase, timelines are documented.
+    * Inintial models used, accuracies, metrics.
+    * Comparison between newer models (if models changed)
+  * <b> August 21 - 24</b>
+    * Document the use cases
+    * Clear documentation of how to use pipelines.
+    * Clear documentation of API endpoints.
+  * <b> August 24 - 31</b>
+    * Final week.
+    * Discussion with mentors.
+    * Project finalisation.
