@@ -131,3 +131,15 @@ https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
 * <b> Personal Works</b>
   * [FyndML ML Challenge 2019 Entry](https://github.com/monstahzxz/fyndML) - An open competition by [fyndML](https://www.fynd.com/) aimed at automating the identification of footwear closure types.
   * [Microsoft AI Challenge 2018](https://github.com/monstahzxz/Microsoft-AI-Challenge-2018) - An open competition by <b>Microsoft</b> to build models for the task of [Machine Reading Comprehension](https://www.microsoft.com/en-us/research/project/machine-reading-comprehension/). I was fortunate enough to be selected as a finalist in this competition. [Certificate](https://github.com/monstahzxz/Microsoft-AI-Challenge-2018/blob/master/Cert/Microsoft_AI_Challenge_Certificate_Saran_Prasad.jpg)
+  * [APTOS Blindness Detection Challenge](https://www.kaggle.com/c/aptos2019-blindness-detection) - A challenge to solve the problem of detection of [diabetic retinopathy](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/diabetic-retinopathy).
+
+* <b> Certifications</b>
+  * Deep Learning Specialisation (deeplearning.ai) - [Certificate](https://coursera.org/share/4998bc657c40f2e747274c6b739147ec)
+  * Machine Learning (Stanford Online) - [Certificate](https://coursera.org/share/7c93ab83621d8e2668612bb1e82d96ec)
+* <b> Skill set</b>
+  * Deep Learning
+  * Competitive Coding
+  * Full Stack Developer
+  * Tensorflow/Keras
+  * Node.js
+  * Angular
