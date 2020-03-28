@@ -20,6 +20,9 @@ Insiyah Hajoori and Ryan Birmingham
 Please find my details in the link below </br>
 https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
 
+## Code Challenge Solution (github repo)
+[An object detector implementation](https://github.com/monstahzxz/caMicroscope_demo)
+
 ## Project Goals / Major Contributions
 * Gathering relevant issues related to existing workflow and integrations
 * Re-design the single-stage network to adapt to detection of RoI tasks with respect to gathered issues as well.
