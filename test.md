@@ -18,7 +18,7 @@ Insiyah Hajoori and Ryan Birmingham
 
 ## Personal Background
 Please find my details in the link below </br>
-https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E
+[Personal Background](https://drive.google.com/open?id=1gVAS8O0uOBtDJWe9W4waGLib3jxqKA9E)
 
 ## Code Challenge Solution (github repo)
 [An object detector implementation](https://github.com/monstahzxz/caMicroscope_demo)
